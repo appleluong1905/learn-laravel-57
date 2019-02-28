@@ -64,14 +64,6 @@
         </style>
     </head>
     <body>
-        <?php 
-            if(true) {
-                echo "A";
-            }
-        ?>
-        @if(true)
-            {{ "a" }}
-        @endif
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
