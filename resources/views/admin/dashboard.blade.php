@@ -1,5 +1,7 @@
 @extends('layouts.admin')
-    <!-- Content Header (Page header) -->
+@section('title','Dashboard')
+@section('content')
+<!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
         Fixed Layout
@@ -45,3 +47,4 @@
 
     </section>
     <!-- /.content -->
+@endsection

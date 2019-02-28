@@ -22,3 +22,6 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/admin', 'UserController@index')->name('admin');
 
 Route::get('/list_user', 'UserController@list_user')->name('list_user');
+
+Route::get('/add_user', 'UserController@get_add_user')->name('add_user');
+Route::post('add_user', 'UserController@add_user')->name('add_user');

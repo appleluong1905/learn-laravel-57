@@ -1,2 +1,7 @@
 @extends('layouts.admin')
-<h1>aaa</h1>
+
+@section('title','List user')
+
+@section('content')
+	<h1>aaa</h1>
+@endsection
